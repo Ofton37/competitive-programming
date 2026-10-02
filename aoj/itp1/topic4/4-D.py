@@ -1,0 +1,5 @@
+x = int(input())
+data = list(map(int,input().split()))
+data.sort()
+total = sum(data)
+print(data[0],data[x-1],total)
