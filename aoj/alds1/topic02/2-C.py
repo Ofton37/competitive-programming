@@ -3,7 +3,6 @@ def isStable(In ,Out, n):
         if In[i][0] != Out[i][0]:
             return False
     return True
-    
 def bubblesort(A, n):
     Cards = A.copy()
     
